@@ -38,7 +38,7 @@ public partial class _Default : System.Web.UI.Page
 
     public String GetText(Object container)
     {
-        DevExpress.Web.ASPxMenu.MenuItemTemplateContainer item = container as DevExpress.Web.ASPxMenu.MenuItemTemplateContainer;
+        DevExpress.Web.MenuItemTemplateContainer item = container as DevExpress.Web.MenuItemTemplateContainer;
 
         return String.Format("Item name: {0}", item.Item.Name);
     }

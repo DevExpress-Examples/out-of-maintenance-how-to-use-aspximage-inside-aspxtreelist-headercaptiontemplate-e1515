@@ -36,7 +36,7 @@ Partial Public Class _Default
     End Function
 
     Public Function GetText(ByVal container As Object) As String
-        Dim item As DevExpress.Web.ASPxMenu.MenuItemTemplateContainer = TryCast(container, DevExpress.Web.ASPxMenu.MenuItemTemplateContainer)
+        Dim item As DevExpress.Web.MenuItemTemplateContainer = TryCast(container, DevExpress.Web.MenuItemTemplateContainer)
 
         Return String.Format("Item name: {0}", item.Item.Name)
     End Function
